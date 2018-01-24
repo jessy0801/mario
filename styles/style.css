@@ -1,0 +1,33 @@
+#game_contener {
+    height: 340px;
+    position: relative;
+    width: 630px;
+    background: cornflowerblue;
+}
+.block {
+    width: 16px;
+    height: 18px;
+    background-image: url("../misc/block.png");
+    position: absolute;
+}
+.mario {
+    width: 15px;
+    height: 20px;
+    background-image: url("../misc/mario.png");
+    position: absolute;
+}
+.koopa {
+    width: 16px;
+    height: 28px;
+    background-image: url("../misc/kopa.png");
+    position: absolute;
+}
+.flip-image {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    transition: none;
+}
